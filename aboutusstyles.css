@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #e0e0e0; /* Light color for visibility */
+    margin-bottom: 20px;
+}
+
+.about-block {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.about-block:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    color: #4caf50; /* Accent color for section titles */
+    margin-top: 15px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.call-to-action {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50; /* Green */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #388e3c; /* Darker green */
+}
+.back-home-button {
+    background-color: #000000; /* Black background */
+    color: #00FF00; /* Green text */
+    padding: 10px 20px;
+    border: 2px solid #00FF00; /* Green border */
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Animation effect */
+    
+    position: fixed; /* Fixed position */
+    top: 20px; /* 20px from the top */
+    left: 20px; /* 20px from the left */
+    z-index: 1000; /* Ensure it's on top of other elements */
+}
+
+.back-home-button:hover {
+    background-color: #00FF00; /* Green background on hover */
+    color: #000000; /* Black text on hover */
+}

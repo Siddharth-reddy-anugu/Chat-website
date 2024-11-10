@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Sphere Features</title>
+  <style>
+    /* Reset some default browser styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Dark background and general text styling */
+    body {
+      background: linear-gradient(135deg, #0d0d0d, #1b1b1b);
+      color: #e0e0e0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    /* Back to Home button styling */
+    .back-to-home {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      background-color: green;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .back-to-home:hover {
+      background-color: #3e8e41;
+    }
+
+    /* Header styling */
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      color: green;
+    }
+
+    .header p {
+      font-size: 1.2rem;
+      color: #b0b0b0;
+    }
+
+    /* Feature row container */
+    .feature-row {
+      display: flex;
+      align-items: center;
+      background: #222;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+      width: 100%;
+      max-width: 900px;
+      margin-bottom: 20px;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .feature-row:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 6px 12px rgba(21, 151, 38, 0.5);
+    }
+
+    /* Icon styling */
+    .feature-row .icon {
+      font-size: 3rem;
+      color: #00ffff;
+      margin-right: 20px;
+    }
+
+    /* Feature content styling */
+    .feature-content h3 {
+      font-size: 1.8rem;
+      color: #ffffff; /* Set h3 to white */
+      margin-bottom: 10px;
+    }
+
+    .feature-content p {
+      font-size: 1rem;
+      color: #b0b0b0;
+      margin-bottom: 15px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Back to Home Button -->
+  <a href="home.html" class="back-to-home">Back to Home</a>
+
+  <!-- Header Section -->
+  <div class="header">
+   
+  </div>
+
+  <!-- Feature Rows -->
+  <div class="feature-row">
+    <div class="icon">📶</div>
+    <div class="feature-content">
+      <h3>Local Chat Connectivity</h3>
+      <p>Seamlessly connect with users on the same network, ensuring fast and secure communication.</p>
+    </div>
+  </div>
+
+  <div class="feature-row">
+    <div class="icon">👥</div>
+    <div class="feature-content">
+      <h3>Group Conversations</h3>
+      <p>Engage in dynamic group chats, keeping everyone connected and informed.</p>
+    </div>
+  </div>
+
+  <div class="feature-row">
+    <div class="icon">🔒</div>
+    <div class="feature-content">
+      <h3>Private Conversations</h3>
+      <p>Enjoy secure one-on-one chats for focused conversations.</p>
+    </div>
+  </div>
+
+  <div class="feature-row">
+    <div class="icon">📁</div>
+    <div class="feature-content">
+      <h3>Easy Data Sharing</h3>
+      <p>Share files and documents within chats, supporting various file formats.</p>
+    </div>
+  </div>
+
+  <div class="feature-row">
+    <div class="icon">✨</div>
+    <div class="feature-content">
+      <h3>Modern, Interactive UI</h3>
+      <p>Experience a sleek, responsive design that’s easy to navigate.</p>
+    </div>
+  </div>
+
+  <div class="feature-row">
+    <div class="icon">🛡️</div>
+    <div class="feature-content">
+      <h3>Secure Login & Privacy</h3>
+      <p>Protect your conversations with secure login and end-to-end privacy.</p>
+    </div>
+  </div>
+
+</body>
+</html>
